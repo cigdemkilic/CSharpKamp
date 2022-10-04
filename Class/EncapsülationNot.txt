@@ -1,0 +1,9 @@
+﻿Encapsülation yani kapsülleme, bir sınıf gibi verileri ve bu verileri üzerinde çalışan yöntemleri tek bir birim içinde gruplama fikridir.
+Bu kavram aynı zamanda bir nesnenin iç durumunu dışardan gizlemek için de kullanılır.
+
+Kapsülleme kavramının temel prensibinin oluşturan get ve set metotlarını ulaşmak ya da değiştirmek istediğimiz yapıların kontrol mekanizması olarak düşünebiliriz. 
+Karşılaşacağımız problemleri önlemek, uygulanacak işlemleri güvenilir ve kontrollü bir yapı içerisinde gerçekleştirmek için encapsulation işlemini uygularken get ve set metotlarını kullanırız.
+
+İçerisindeki get bloğu, özelliğe erişilmeye çalışıldığında otomatik olarak çağrılır. Bu durumda set bloğu çalışmaz. 
+Eğer nesne kullanıcısı, özelliği atama operatörün sol tarafında alana yeni bir değer vermek için kullanırsa bu sefer otomatik olarak set bloğu çalışır.
+Kısacası Get veri almak, okumak için ser ise veriyi yapılandırmak, işlemek, kontrol etmek için kullanılır.

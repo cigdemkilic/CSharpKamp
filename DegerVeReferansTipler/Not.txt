@@ -1,0 +1,10 @@
+﻿out, bir sistem birden fazla değer döndürdüğünde parametrenin out parametresi aracılığıyla bildirilmesi yararlıdır.
+
+
+int,decimal,float,double,bool,... bunlar DEĞER tipleridir. 
+!!!Değer tipleri bellekte stack'te tutulur.
+
+array,class,interface bunlar REFERANS tipleridir.
+!!!Referans tiplerinde değişken tanımı stack'te tutulur. int[] sayilar1 dediğimizde stackte sayilar1 tanımlanır.
+sayilar = new int[]{} dediğimiz anda sayilar1 için heap'te bir alan oluşur ve değerler oraya yazılır.
+Bu stack ve heap bağlantısı nasıl kurulur? Stackteki sayilar1, heapteki alanın adresini tutar. Yani sayilar1 referans numarası tutar.
